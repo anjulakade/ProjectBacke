@@ -1,0 +1,28 @@
+{
+  "Product": [
+    {
+      "id": "1",
+      "productName": "MI",
+      "productType": "mobile",
+      "productPrice": 1222
+    },
+    {
+      "id": "2",
+      "productName": "samsung",
+      "productType": "mobile",
+      "productPrice": 15607
+    },
+    {
+      "id": "3",
+      "productName": "apple",
+      "productType": "mobile",
+      "productPrice": 11100
+    },
+    {
+      "id": "5",
+      "productName": "Mouse",
+      "productType": "PC",
+      "productPrice": "1000"
+    }
+  ]
+}

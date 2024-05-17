@@ -1,0 +1,41 @@
+<form [formGroup]="registerform" (ngSubmit)="onSubmit()">
+    <h1 class="text-center mb-4">Product Details</h1>
+  
+<div class="form-outline mb-3"style="display: inline-flex">
+ 
+    <!-- <label form="id" class="form-lable">productId :-</label>
+   <input  type="text" class="form-control" id="id" formControlName="productId"> -->
+
+</div><br>
+
+<div class="form-outline mb-3"style="display: inline-flex">
+    <label form="productName" class="form-lable" >productName :-</label>
+    <input type="text" class="form-control" id="productName" formControlName="productName">
+     
+ 
+ </div><br>
+ <div class="form-outline mb-3"style="display: inline-flex">
+    <label form="productType" class="form-lable" >productType  :-</label>
+    <input type="text" class="form-control" id="productType" formControlName="productType">
+  
+ 
+ </div><br>
+ 
+ <div class="form-outline mb-3"style="display: inline-flex">
+    <label form="productPrice" class="form-lable" >productPrice:-</label>
+    <input type="text" class="form-control" id="productPrice" formControlName="productPrice">
+     
+ 
+ </div><br>
+<div>
+<button class="btn btn-success">Submit</button>
+
+  
+</div>
+ 
+
+
+
+</form>
+
+<router-outlet></router-outlet>
